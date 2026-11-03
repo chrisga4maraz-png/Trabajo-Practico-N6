@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Escuela Provincial de Comercio N.º 1</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <a href="index.html" class="marca">
+                <span class="marca-superior">Institución educativa · Jujuy</span>
+                <h1>Escuela Provincial de Comercio N.º 1</h1>
+                <span class="marca-institucional">Prof. Carlos Eusebio Ibarra</span>
+            </a>
+
+            <nav class="navegacion">
+                <button id="menuBtn" type="button" aria-expanded="false"
+                    aria-controls="menu">Menú</button>
+
+                <ul id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Nuestra formación</a></li>
+                    <li><a href="contacto.html" class="actual">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="encabezado-pagina">
+            <div class="contenedor">
+                <span class="subtitulo">Estamos para ayudarte</span>
+                <h2>Contacto institucional</h2>
+                <p>
+                    Este espacio está destinado a quienes desean
+                    conocer más sobre nuestra institución o realizar
+                    una consulta.
+                </p>
+            </div>
+        </section>
+
+        <section class="contenedor contacto-contenido">
+
+            <div class="contacto-informacion">
+                <span class="subtitulo">Encontranos</span>
+                <h2>Información de la escuela</h2>
+
+                <p>
+                    La Escuela Provincial de Comercio N.º 1
+                    se encuentra en San Salvador de Jujuy.
+                    Podés consultar su ubicación para conocer
+                    cómo llegar a la institución.
+                </p>
+
+                <div class="dato-contacto">
+                    <span class="dato-etiqueta">Institución</span>
+                    <p>Escuela Provincial de Comercio N.º 1</p>
+                    <p>Prof. Carlos Eusebio Ibarra</p>
+                </div>
+
+                <div class="dato-contacto">
+                    <span class="dato-etiqueta">Dirección</span>
+                    <p>Av. Coronel Mariano Santibáñez 1220</p>
+                    <p>San Salvador de Jujuy, Jujuy</p>
+                </div>
+
+                <div class="dato-contacto">
+                    <span class="dato-etiqueta">Sitio institucional</span>
+                    <a href="https://www.epc1-jujuy.edu.ar/" target="_blank"
+                        rel="noopener noreferrer">Visitar sitio web</a>
+                </div>
+            </div>
+
+            <div class="contacto-formulario">
+                <span class="subtitulo">Escribinos</span>
+                <h2>Formulario de consulta</h2>
+
+                <form id="formularioContacto" action="#" method="post">
+
+                    <div class="campo-formulario">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre"
+                            placeholder="Ingresá tu nombre" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo"
+                            placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto"
+                            placeholder="Motivo de la consulta" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"
+                            placeholder="Escribí tu consulta..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="boton-principal">
+                        Enviar consulta
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h2>Escuela Provincial de Comercio N.º 1</h2>
+                <p>Prof. Carlos Eusebio Ibarra</p>
+            </div>
+            <p class="pie-derechos">&copy; 2026 · San Salvador de Jujuy</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
